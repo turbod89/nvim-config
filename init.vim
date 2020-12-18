@@ -121,7 +121,7 @@ set colorcolumn=80
 
 
 "------------Start Python PEP 8 stuff----------------
-let g:autopep8_on_save = 0
+let g:autopep8_on_save = 1
 let g:autopep8_disable_show_diff=1
 
 au BufRead,BufNewFile *.py,*.pyw set smarttab
@@ -199,6 +199,18 @@ au BufNewFile,BufRead *.md
 "
 au BufNewFile,BufRead *.h,*.cpp,*.c
   \ set tabstop=2
+  \ softtabstop=2
+  \ shiftwidth=2
+  \ textwidth=79
+  \ expandtab
+  \ autoindent
+  \ fileformat=unix
+
+"sh stuff"
+autocmd FileType bash setlocal tabstop=2
+autocmd FileType bash setlocal tabstop=2
+autocmd FileType bash 
+  \ setlocal tabstop=2
   \ softtabstop=2
   \ shiftwidth=2
   \ textwidth=79

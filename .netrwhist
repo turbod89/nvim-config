@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/daniel/stories/frgx-104/code'
+let g:netrw_dirhist_2='/home/daniel/stories/frgx-104/code/shared'
+let g:netrw_dirhist_1='/home/daniel/stories/frgx-104/code'
